@@ -7,17 +7,21 @@
       {
           "id":"中国电信",
           "name": "中国电信",
-          "keys":["@中国电信.chavy_mobile_10000"],
+          "keys":["chavy_mobile_10000"],
           "settings": [
                 {
-                    "id": "@中国电信.chavy_mobile_10000",
+                    "id": "chavy_mobile_10000",
                     "name":"电话号码",
                     "val": "",
                     "type": "text",
                     "desc": "电话号码"
                 }
+          ],
+          "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js",
+          "icons": [
+              "https://raw.githubusercontent.com/Orz-3/mini/master/10000.png",
+              "https://raw.githubusercontent.com/Orz-3/task/master/10000.png"
           ]
-          
       }
   ]
 }
