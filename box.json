@@ -1,0 +1,23 @@
+{
+  "id":"dreamxiaohai.app.sub",
+  "name":"dreamxiaohai应用订阅",
+  "icon":"https://avatars2.githubusercontent.com/u/21050064?s=460&u=40a74913dd0a3d00670d05148c3a08c787470021&v=4",
+  "repo":"https://github.com/DreamXiaoHai/Script",
+  "apps": [
+      {
+          "id":"中国电信",
+          "name": "中国电信",
+          "keys":["@中国电信.chavy_mobile_10000"],
+          "settings": [
+                {
+                    "id": "@中国电信.chavy_mobile_10000",
+                    "name":"电话号码",
+                    "val": "",
+                    "type": "text",
+                    "desc": "电话号码"
+                }
+          ]
+          
+      }
+  ]
+}
